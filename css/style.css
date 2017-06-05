@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EFF2F7;
+    font-size: 16px;
+}
+
+.clearfix{
+    overflow: auto;
+    _height: 1%;
+}
+
+.wrap{
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.content section{
+    height: 300px;
+}
+
+
+.sec-left{
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: table;
+}
+
+.sec-right{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+
+.avatar{
+    margin: 50px auto 20px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+}
+
+.cname{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.ename{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.job-title{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.sec-title{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 30px;
+    font-weight: normal;
+    /*margin-top: 100px;*/
+}
+
+.sec-title span:first-child{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+}
+
+.sec-title span:first-child img{
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+}
+
+.sec-title span:last-child{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    vertical-align: top;
+
+}
+
+.per-intro{
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+.base-info{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 30px;
+    
+    margin-top: 80px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.base-info h3{
+    height: 35px;
+    line-height: 25px;
+}
+
+.base-info p{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #F9FAFC
+}
